@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav .tammy{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fffbf3;
+}
+
+nav .tammy h1{
+    color: #3C3C3C;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 200px;
+}
+
+nav .tammy h1 span{
+    color: #FCC647;
+}
+
+nav .tammy h3{
+    color: #FCC647;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+nav .tammy h4{
+    color: #3C3C3C;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+.discover{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbf3
+}
+
+.discover .home h4{
+    color: #FCC647;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 10px ;
+    margin-right: 500px;
+} 
+
+
+
+.discover .home h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #3C3C3C;
+    padding: 10px;
+}
+
+.discover .home h1 span{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #FCC647;
+    /* padding: 10px; */
+}
+
+.discover .home p{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #3C3C3C;
+    padding: 10px;
+}
+
+.discover .home button{
+    border: none;
+    border-radius: 15px;
+    background-color: #FCC647;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+}
+
+.discover .img{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 150px;    */
+    width: 300px;
+    height: 300px;
+}
+
+.how {
+    text-align: center;
+    gap: 10px;
+    display: flex;  
+    justify-content: center;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: -100px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h4{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+}
+
+.cards .card{
+    padding: 40px;
+    height: 350px;
+    line-height: 1.5;
+}
+
+.cards .card:nth-child(even){
+    margin-top: 50px;
+}
+
+.our .dish{
+    align-items: center;
+    text-align: center;
+    /* flex-direction: column; */
+}
+
+.cards12{
+    padding: 0 30px;
+}
+.cards12 .card{
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #676767;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cards12 .card1{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 30px;
+    margin-top: 25px;
+}
+.cards12 .card2{
+    display: flex;
+    gap: 30px;
+}
+.we{
+    background: #FFFBF3;
+    padding: 50px;
+    display: flex;
+}
+
+.we .fast img{
+    width: 400px;
+    height: 500px;
+    padding: 25px;
+}
+
+.we .your{
+    padding: 20px;
+}
+
+.we .your h6{
+    color:  #EF9737;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.we .your h1{
+    color:  #535353;
+    padding: 10px;
+}
+
+.we .your button{
+    border: none;
+    border-radius: 5px;
+    background: #FCC647;
+    color: #fff;
+    width: 51px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.we .your p{
+    padding: 10px;
+    color:  #667085;
+}

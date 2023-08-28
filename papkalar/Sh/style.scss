@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #E3EFFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+    .card{
+    //   border: 1px solid red;
+      background: #fff;
+      width: 300px;
+      height: 400px;
+      padding: 20px;
+      text-align: center;
+      line-height: 1.5;
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; 
+        }
+        button{
+            background: transparent;
+            border: none;
+            margin-top: 20px;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        bottom:hover{
+            color: rgb(0, 255, 0);
+            cursor: pointer;
+        }
+      }
+    }
+

@@ -1,0 +1,79 @@
+.container{
+    font-family: sans-serif;
+}
+
+.container .qism{
+    background: url(d0f3edac-474b-42be-b569-946cd98464a7.jpg) no-repeat;
+    padding: 250px;
+}
+
+.container .qism h3 {
+    margin-left: 300px;
+    margin-top: -180px;
+    font-size: 30px;
+}
+
+.container .qism h1{
+    font-size: 100px;
+    margin-left: 300px;
+}
+
+.container .qism button{
+    border: none;
+    background: none;
+    font-size: 15px;
+    margin-left: 300px;
+}
+
+.card12{
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
+}
+
+
+.card12 .card p{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.Fresh{
+    display: flex;
+    background: #000;
+    color: #fff;
+}
+
+.Fresh .img{
+    width: 1050px;
+    height: 1090px;
+    padding: -2900px;
+}
+
+.Fresh .text{
+    padding: 50px;
+    margin-top: 300px;
+}
+
+.Fresh .text h1{
+    font-size: 50px;
+}
+
+.Fresh .text p{
+    font-size: 20px;
+}
+
+.Fresh .text button{
+    border-color: #fff;
+    background: #000;
+    color: #fff;
+    width: 190px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.Fresh .text button:hover{
+    background: #fff;
+    color: #000;
+}

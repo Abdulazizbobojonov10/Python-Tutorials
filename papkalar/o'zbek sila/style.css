@@ -1,0 +1,173 @@
+body{
+    background: #1E1C2A;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav .mayli{
+    display: flex;
+    position: fixed;
+}
+
+nav .mayli h1{
+    color: #FF702A;
+    font-family: sans-serif;
+}
+
+nav .mayli h4{
+    color: #fff;
+    font-family: sans-serif;
+    margin-right: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+nav .mayli h4:hover{
+    color: #FF702A;
+}
+
+.Full{
+    background-color: #1E1C2A;
+    display: flex;
+    gap: 150px;
+}
+
+.Full .ful{
+    margin-top: 250px;
+    margin-left: 190px;
+}
+
+
+.Full .ful h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #FF702A;
+}
+
+
+.Full .ful p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+.Full .ful button{
+    background: #fff;
+    color: #FF702A;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.Full .ful button:hover{
+    background: #FF702A;
+    color: #fff;
+}
+
+.about{
+    background: #1E1C2A;
+    padding: 200px;
+    display: flex;
+}
+
+.about .text{
+    margin-left: 40px;
+}
+
+.about .text h4{
+    color: #FF702A;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about .text h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.about .text p{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.about .text button{
+    background: #fff;
+    color: #FF702A;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.about .text button:hover{
+    background: #FF702A;
+    color: #fff;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.cards{
+    display: flex;
+    gap: 100px;
+}
+
+.content .text h4{
+    color: #FF702A;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+
+.content .text h1{
+    color: #fff;
+    font-size: 40px;
+}
+.content .cards .card{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #FEEEE7;
+}
+
+.card{
+    background-color: #FEEEE7;
+}
+
+.cards .card img{
+    width: 250px;
+    height: 250px;
+}
+
+.content .cards .card h5{
+    color: #FF702A;
+}
+
+
+.moshincha h5{
+    color: #FF702A;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.moshincha h1{
+    color: #FEEEE7;
+    font-size: 40px;
+}
